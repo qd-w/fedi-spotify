@@ -7,7 +7,7 @@
                    ;; account number you see when you log in and go to your profile
                    ;; e.g: https://mastodon.social/web/accounts/294795
                    :account-id "XXXX"
-                   :api_url "https://botsin.space/api/v1/"}
+                   :api_url "https://mastodon.social/api/v1/"}
         :tumblr {:consumer_key "XXXX"
                  :consumer_secret "XXXX"
                  :token "XXXX"
@@ -21,7 +21,7 @@
                        ;; Replace Twitter links by Nitter
             :nitter-urls? false
                        ;; accounts you wish to mirror
-            :accounts ["arstechnica" "WIRED"]}
+            :accounts ["qd-music"]}
    :target {:target-type :mastodon
             ;; optional flag specifying wether the name of the account
             ;; will be appended in the post, defaults to false
@@ -37,7 +37,7 @@
             ;; optional limit for the post length
             :max-post-length 300
             ;; optional signature for posts
-            :signature "#newsbot"}
+            :signature "#imlisteningto"}
    ;; optionally try to resolve URLs in posts to skip URL shorteners
    ;; defaults to false
    :resolve-urls? true
